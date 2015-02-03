@@ -1,0 +1,1 @@
+3dAnatNudge -anat CSST_16_T1_biascorr_brain+orig -epi CSST_16_03+orig -prefix CSST_16_struct_nudged3.orig -step 2 -x 1 -y 1 -z 7

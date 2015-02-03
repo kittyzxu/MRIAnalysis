@@ -1,0 +1,165 @@
+#!/bin/tcsh 
+
+3dANOVA3 -type 5                            \
+-alevels 5                             \
+-blevels 2                              \
+-clevels 10                              \
+-dset 1 1 1 stats.CSST_03_WY+tlrc'[1]'            \
+-dset 1 1 2 stats.CSST_04_AA+tlrc'[1]'            \
+-dset 1 1 3 stats.CSST_07_ST+tlrc'[1]'            \
+-dset 1 1 4 stats.CSST_09_KK+tlrc'[1]'            \
+-dset 1 1 5 stats.CSST_11_AV+tlrc'[1]'            \
+-dset 1 1 6 stats.CSST_13_SE+tlrc'[1]'            \
+-dset 1 1 7 stats.CSST_14_RO+tlrc'[1]'            \
+-dset 1 1 8 stats.CSST_15_ZM+tlrc'[1]'            \
+-dset 1 1 9 stats.CSST_16_JW+tlrc'[1]'            \
+-dset 1 1 10 stats.CSST_17_AU+tlrc'[1]'            \
+-dset 1 2 1 stats.CSST_03_WY+tlrc'[6]'            \
+-dset 1 2 2 stats.CSST_04_AA+tlrc'[6]'            \
+-dset 1 2 3 stats.CSST_07_ST+tlrc'[6]'            \
+-dset 1 2 4 stats.CSST_09_KK+tlrc'[6]'            \
+-dset 1 2 5 stats.CSST_11_AV+tlrc'[6]'            \
+-dset 1 2 6 stats.CSST_13_SE+tlrc'[6]'            \
+-dset 1 2 7 stats.CSST_14_RO+tlrc'[6]'            \
+-dset 1 2 8 stats.CSST_15_ZM+tlrc'[6]'            \
+-dset 1 2 9 stats.CSST_16_JW+tlrc'[6]'            \
+-dset 1 2 10 stats.CSST_17_AU+tlrc'[6]'            \
+-dset 2 1 1 stats.CSST_03_WY+tlrc'[11]'            \
+-dset 2 1 2 stats.CSST_04_AA+tlrc'[11]'            \
+-dset 2 1 3 stats.CSST_07_ST+tlrc'[11]'            \
+-dset 2 1 4 stats.CSST_09_KK+tlrc'[11]'            \
+-dset 2 1 5 stats.CSST_11_AV+tlrc'[11]'            \
+-dset 2 1 6 stats.CSST_13_SE+tlrc'[11]'            \
+-dset 2 1 7 stats.CSST_14_RO+tlrc'[11]'            \
+-dset 2 1 8 stats.CSST_15_ZM+tlrc'[11]'            \
+-dset 2 1 9 stats.CSST_16_JW+tlrc'[11]'            \
+-dset 2 1 10 stats.CSST_17_AU+tlrc'[11]'            \
+-dset 2 2 1 stats.CSST_03_WY+tlrc'[16]'            \
+-dset 2 2 2 stats.CSST_04_AA+tlrc'[16]'            \
+-dset 2 2 3 stats.CSST_07_ST+tlrc'[16]'            \
+-dset 2 2 4 stats.CSST_09_KK+tlrc'[16]'            \
+-dset 2 2 5 stats.CSST_11_AV+tlrc'[16]'            \
+-dset 2 2 6 stats.CSST_13_SE+tlrc'[16]'            \
+-dset 2 2 7 stats.CSST_14_RO+tlrc'[16]'            \
+-dset 2 2 8 stats.CSST_15_ZM+tlrc'[16]'            \
+-dset 2 2 9 stats.CSST_16_JW+tlrc'[16]'            \
+-dset 2 2 10 stats.CSST_17_AU+tlrc'[16]'            \
+-dset 3 1 1 stats.CSST_03_WY+tlrc'[21]'            \
+-dset 3 1 2 stats.CSST_04_AA+tlrc'[21]'            \
+-dset 3 1 3 stats.CSST_07_ST+tlrc'[21]'            \
+-dset 3 1 4 stats.CSST_09_KK+tlrc'[21]'            \
+-dset 3 1 5 stats.CSST_11_AV+tlrc'[21]'            \
+-dset 3 1 6 stats.CSST_13_SE+tlrc'[21]'            \
+-dset 3 1 7 stats.CSST_14_RO+tlrc'[21]'            \
+-dset 3 1 8 stats.CSST_15_ZM+tlrc'[21]'            \
+-dset 3 1 9 stats.CSST_16_JW+tlrc'[21]'            \
+-dset 3 1 10 stats.CSST_17_AU+tlrc'[21]'            \
+-dset 3 2 1 stats.CSST_03_WY+tlrc'[26]'            \
+-dset 3 2 2 stats.CSST_04_AA+tlrc'[26]'            \
+-dset 3 2 3 stats.CSST_07_ST+tlrc'[26]'            \
+-dset 3 2 4 stats.CSST_09_KK+tlrc'[26]'            \
+-dset 3 2 5 stats.CSST_11_AV+tlrc'[26]'            \
+-dset 3 2 6 stats.CSST_13_SE+tlrc'[26]'            \
+-dset 3 2 7 stats.CSST_14_RO+tlrc'[26]'            \
+-dset 3 2 8 stats.CSST_15_ZM+tlrc'[26]'            \
+-dset 3 2 9 stats.CSST_16_JW+tlrc'[26]'            \
+-dset 3 2 10 stats.CSST_17_AU+tlrc'[26]'            \
+-dset 4 1 1 stats.CSST_03_WY+tlrc'[31]'            \
+-dset 4 1 2 stats.CSST_04_AA+tlrc'[31]'            \
+-dset 4 1 3 stats.CSST_07_ST+tlrc'[31]'            \
+-dset 4 1 4 stats.CSST_09_KK+tlrc'[31]'            \
+-dset 4 1 5 stats.CSST_11_AV+tlrc'[31]'            \
+-dset 4 1 6 stats.CSST_13_SE+tlrc'[31]'            \
+-dset 4 1 7 stats.CSST_14_RO+tlrc'[31]'            \
+-dset 4 1 8 stats.CSST_15_ZM+tlrc'[31]'            \
+-dset 4 1 9 stats.CSST_16_JW+tlrc'[31]'            \
+-dset 4 1 10 stats.CSST_17_AU+tlrc'[31]'            \
+-dset 4 2 1 stats.CSST_03_WY+tlrc'[36]'            \
+-dset 4 2 2 stats.CSST_04_AA+tlrc'[36]'            \
+-dset 4 2 3 stats.CSST_07_ST+tlrc'[36]'            \
+-dset 4 2 4 stats.CSST_09_KK+tlrc'[36]'            \
+-dset 4 2 5 stats.CSST_11_AV+tlrc'[36]'            \
+-dset 4 2 6 stats.CSST_13_SE+tlrc'[36]'            \
+-dset 4 2 7 stats.CSST_14_RO+tlrc'[36]'            \
+-dset 4 2 8 stats.CSST_15_ZM+tlrc'[36]'            \
+-dset 4 2 9 stats.CSST_16_JW+tlrc'[36]'            \
+-dset 4 2 10 stats.CSST_17_AU+tlrc'[36]'            \
+-dset 5 1 1 stats.CSST_03_WY+tlrc'[41]'            \
+-dset 5 1 2 stats.CSST_04_AA+tlrc'[41]'            \
+-dset 5 1 3 stats.CSST_07_ST+tlrc'[41]'            \
+-dset 5 1 4 stats.CSST_09_KK+tlrc'[41]'            \
+-dset 5 1 5 stats.CSST_11_AV+tlrc'[41]'            \
+-dset 5 1 6 stats.CSST_13_SE+tlrc'[41]'            \
+-dset 5 1 7 stats.CSST_14_RO+tlrc'[41]'            \
+-dset 5 1 8 stats.CSST_15_ZM+tlrc'[41]'            \
+-dset 5 1 9 stats.CSST_16_JW+tlrc'[41]'            \
+-dset 5 1 10 stats.CSST_17_AU+tlrc'[41]'            \
+-dset 5 2 1 stats.CSST_03_WY+tlrc'[46]'            \
+-dset 5 2 2 stats.CSST_04_AA+tlrc'[46]'            \
+-dset 5 2 3 stats.CSST_07_ST+tlrc'[46]'            \
+-dset 5 2 4 stats.CSST_09_KK+tlrc'[46]'            \
+-dset 5 2 5 stats.CSST_11_AV+tlrc'[46]'            \
+-dset 5 2 6 stats.CSST_13_SE+tlrc'[46]'            \
+-dset 5 2 7 stats.CSST_14_RO+tlrc'[46]'            \
+-dset 5 2 8 stats.CSST_15_ZM+tlrc'[46]'            \
+-dset 5 2 9 stats.CSST_16_JW+tlrc'[46]'            \
+-dset 5 2 10 stats.CSST_17_AU+tlrc'[46]'            \
+-acontr 0 0 -1 0 1    SSvG                           \
+-acontr 0.25 0.25 -1 0.25 0.25    SignalvG            \
+-acontr 1 0 0 -1 0    FCvSC                           \
+-acontr 0 -1 0 0 1     SSvFS                           \
+-acontr 0 -1 0 0 1     SSvFS                           \
+-acontr -0.5 0.5 0 -0.5 0.5     SvC                    \
+-bucket ContSST_anova
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

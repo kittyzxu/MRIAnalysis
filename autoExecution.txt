@@ -1,0 +1,11 @@
+#!/bin/tcsh
+
+cd CSST_07_ST
+tcsh -xef proc.CSST_07_ST |& tee output.proc.CSST_07_ST
+cd ..
+cd CSST_04_AA
+tcsh -xef proc.CSST_04_AA |& tee output.proc.CSST_04_AA
+cd ..
+cd CSST_03_WY                                                        
+tcsh -xef proc.CSST_03_WY |& tee output.proc.CSST_03_WY            
+cd ..                                                                 

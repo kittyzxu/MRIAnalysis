@@ -1,0 +1,6 @@
+3dAFNItoNIFTI CSST_15_struct+orig
+fsl_anat -i CSST_15_struct.nii
+#file name to view image in afni
+CSST_15_T1_biascorr_brain.nii.gz
+# to get back from nii to afni
+3dcopy CSST_16_T1_biascorr_brain.nii.gz CSST_16_T1_biascorr_brain+orig
